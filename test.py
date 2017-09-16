@@ -23,4 +23,8 @@ d= np.dot(np.ones([2,2]), np.diag([1,1]))
 
 print(d)
 
-sk.covariance.ledoit_wolf(X)
+# sk.covariance.ledoit_wolf(X)
+
+a= pd.DataFrame(np.ones([3,3]), index=[0,1,2], columns= ['x', 'y', 'z'])
+print(a)
+t= np.dot(z, np.diag([2,3,4]))
